@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilo_div.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='peces.css'>
+    <script src='Correo.JS'></script>
+</head>
+<body>
+</head>
+
+<body>
+    <div id="apDiv1">
+        <header>
+            <ul class="menu">
+                <li ></li>
+                <li ><a href="#">Objetivos</a></li>
+                <li><a href="#">Fundadores</a></li>
+                <li><a href="#">Dirigido a</a></li>
+                <li><a href="#">Telefono</a></li>
+            </ul>
+        </header>
+            
+
+        <div id="apDiv3">
+            
+           
+        <div id="form">
+    
+            <div class="fish" id="fish"></div>
+            <div class="fish" id="fish2"></div>
+            
+            <form id="waterform" method="post">
+            
+            <div class="formgroup" id="name-form">
+                <label for="name">Tu nombre*</label>
+                <input type="text" id="name" name="name" required/>
+            </div>
+            
+            <div class="formgroup" id="email-form">
+                <label for="email">Tu e-mail*</label>
+                <input type="email" id="email" name="email" required />
+            </div>
+            <div class="formgroup" id="message-form">
+                <label for="tel">Tu numero</label>
+                <input type="tel" id="numero" name="phone" required />
+            </div>
+            <div class="formgroup" id="message-form">
+                <label for="message">Tu mensaje</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <input type="submit" id="button" value="Enviar" >
+                
+                <div id="fundadores">
+                    <label for="text">Fundadores</label>
+                    <label for="text">Uriel Castorela Cuevas</label>
+                    <a name=""></a>
+                </div>
+                <div id="tel">
+
+                    <label for="text">Telefono</label>
+                    <label for="text">7361062046</label>
+                    <a name=""></a>
+                </div>
+            </form>
+            <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+            <script type="text/javascript">
+             emailjs.init('UnOLdFEE9o5s0SDUy')
+            </script>
+
+            <div class="fish1" id="fish1"></div>
+            <div class="fish1" id="fish3"></div>
+            
+            </div>
+            
+        </div>
+
+        
+</div>
+</body>
+
+</html>
